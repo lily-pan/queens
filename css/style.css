@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Varela');
+/* HEADER & FOOTER FONT
+font-family: 'Varela', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200');
+/*BODY FONT
+font-family: 'Source Sans Pro', sans-serif; */
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{ 
+background-color: #38686A;
+font-family: 'Source Sans Pro', sans-serif;
+color: #FFF3EB;
+}
+
+h1{
+text-align: center;
+margin: 20px;
+font-size: 60px;
+}
+
+/*nav bar*/
+
+.top-bar{
+background-color: #5B64A7;
+font-family: 'Varela', sans-serif;
+font-size: 25px;
+text-align: center;
+margin-top: 0;
+top:0;
+width: 100%;
+position: fixed;
+z-index:1000;
+}
+
+.top-bar h1 {
+background-color: #38686A;
+margin:0;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.top-bar li{
+list-style: none;
+}
+
+.top-bar ul{
+display: flex;
+justify-content: space-around;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.top-bar ul li:hover{
+color: #202020;
+  
+cursor: pointer;
+}
+
+.large-image{
+height: 400px;
+width: 100%;
+margin-top: 200px;
+margin-bottom: 10px;
+
+display: flex;
+align-items: center;
+background-size: cover;
+background-image: url(../images/unisphere.jpg);
+}
+
+.large-image p{
+margin: auto;
+font-size: 290%;
+background-color: #202020;
+opacity: 0.8;
+}
+
+.whole{
+display: flex;
+justify-content: space-between;
+
+background-color: none;
+width: 100%;
+}
+
+.card-3-4{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+
+background-color: white;
+
+height: 400px;
+width: 75%;
+margin: 5px;
+
+background-size: cover;
+}
+
+#dumpling-galaxy{
+background-image: url(../images/dumplings.jpg);
+}
+
+#citifield{
+background-image: url(../images/citifield.jpg);
+}
+
+.card-2-5{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+align-items: center;
+background-color: #202020;
+
+
+height: 400px;
+width: 25%;
+margin: 5px;
+
+background-size: cover;
+}
+
+#moving-image{
+background-image: url(../images/moving-image.jpg);
+}
+
+#marthas{
+background-image: url(../images/cake.jpg);
+}
+
+.footer{
+margin-top: 10px;
+margin-bottom: 10px;
+
+background-color: #5B64A7;
+font-family: 'Varela', sans-serif;
+font-size: 25px;
+height: 90px;
+text-align: center;
+
+width: 100%;
+}
+
+.footer p{
+align-items: center;
+padding-top: 30px;
+}
+
+/*to-see page*/
+
+#places{
+background-image: url(../images/seagulls.jpg);
+}
+
+#museum-of-moving-image{
+background-image: url(../images/museum-of-moving-image.jpg);
+}
+
+#field{
+background-image: url(../images/citifield-field.jpg);
+}
+
+.card-2-5 p{
+justify-content: center;
+font-size: 18px;
+margin: auto;
+}
+
+
+/*to-eat page*/
+
+#noodles{
+background-image: url(../images/noodles.jpg);
+}
+
+#dumpling-restaurant{
+background-image:url(../images/dumpling-galaxy.jpg);
+}
+
+#bakery{
+background-image: url(../images/bakery.jpg);
+}
+
+a:link{
+color: #FFF3EB;
+text-decoration: none;
+}
+
+a:visited{
+color: #FFF3EB;
+text-decoration: none;
+}
+
+/*Hover must come after :link and :visited in order to be effective*/
+a:hover{
+color: #202020;
+text-decoration: none;
+}
+
